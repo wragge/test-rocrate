@@ -1,0 +1,55 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2022-08-26T04:49:11+00:00",
+            "hasPart": [
+                {
+                    "@id": "sample_notebook.ipynb"
+                }
+            ]
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            }
+        },
+        {
+            "@id": "sample_notebook.ipynb",
+            "@type": [
+                "File",
+                "SoftwareApplication"
+            ],
+            "author": [
+                {
+                    "@id": "#0000-0001-7956-4498"
+                }
+            ],
+            "conformsTo": [
+                {
+                    "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+                }
+            ],
+            "description": "This notebook explores a fictional sample of pet ownership.",
+            "encodingFormat": "application/x-ipynb+json",
+            "input": [
+                {
+                    "@id": ""
+                }
+            ],
+            "name": "This is a sample notebook"
+        },
+        {
+            "@id": "#0000-0001-7956-4498",
+            "@type": "Person",
+            "name": "Sherratt, Tim"
+        }
+    ]
+}
