@@ -4,13 +4,16 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2022-08-26T05:24:34+00:00",
+            "datePublished": "2022-08-26T05:57:02+00:00",
             "hasPart": [
+                {
+                    "@id": "pet-ownership.ipynb"
+                },
                 {
                     "@id": "index.ipynb"
                 },
                 {
-                    "@id": "sample_notebook.ipynb"
+                    "@id": "another_notebook.ipynb"
                 }
             ]
         },
@@ -23,6 +26,36 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/crate/1.1"
             }
+        },
+        {
+            "@id": "pet-ownership.ipynb",
+            "@type": [
+                "File",
+                "SoftwareApplication"
+            ],
+            "author": [
+                {
+                    "@id": "#0000-0000-0000-0001"
+                }
+            ],
+            "conformsTo": [
+                {
+                    "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+                }
+            ],
+            "description": "This notebook explores a small sample of pet ownership.",
+            "encodingFormat": "application/x-ipynb+json",
+            "input": [
+                {
+                    "@id": ""
+                }
+            ],
+            "name": "This is my very first notebook"
+        },
+        {
+            "@id": "#0000-0000-0000-0001",
+            "@type": "Person",
+            "name": "Pig, Guinea"
         },
         {
             "@id": "index.ipynb",
@@ -55,7 +88,7 @@
             "name": "Sherratt, Tim"
         },
         {
-            "@id": "sample_notebook.ipynb",
+            "@id": "another_notebook.ipynb",
             "@type": [
                 "File",
                 "SoftwareApplication"
@@ -70,14 +103,14 @@
                     "@id": "https://purl.archive.org/textcommons/profile#Notebook"
                 }
             ],
-            "description": "This notebook explores a small sample of pet ownership.",
+            "description": "",
             "encodingFormat": "application/x-ipynb+json",
             "input": [
                 {
                     "@id": ""
                 }
             ],
-            "name": "This is my very first notebook"
+            "name": "another_notebook.ipynb"
         }
     ]
 }
