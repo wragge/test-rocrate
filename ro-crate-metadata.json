@@ -4,8 +4,11 @@
         {
             "@id": "./",
             "@type": "Dataset",
-            "datePublished": "2022-08-26T04:49:11+00:00",
+            "datePublished": "2022-08-26T05:24:34+00:00",
             "hasPart": [
+                {
+                    "@id": "index.ipynb"
+                },
                 {
                     "@id": "sample_notebook.ipynb"
                 }
@@ -20,6 +23,36 @@
             "conformsTo": {
                 "@id": "https://w3id.org/ro/crate/1.1"
             }
+        },
+        {
+            "@id": "index.ipynb",
+            "@type": [
+                "File",
+                "SoftwareApplication"
+            ],
+            "author": [
+                {
+                    "@id": "#0000-0001-7956-4498"
+                }
+            ],
+            "conformsTo": [
+                {
+                    "@id": "https://purl.archive.org/textcommons/profile#Notebook"
+                }
+            ],
+            "description": "",
+            "encodingFormat": "application/x-ipynb+json",
+            "input": [
+                {
+                    "@id": ""
+                }
+            ],
+            "name": "index.ipynb"
+        },
+        {
+            "@id": "#0000-0001-7956-4498",
+            "@type": "Person",
+            "name": "Sherratt, Tim"
         },
         {
             "@id": "sample_notebook.ipynb",
@@ -37,19 +70,14 @@
                     "@id": "https://purl.archive.org/textcommons/profile#Notebook"
                 }
             ],
-            "description": "This notebook explores a fictional sample of pet ownership.",
+            "description": "This notebook explores a small sample of pet ownership.",
             "encodingFormat": "application/x-ipynb+json",
             "input": [
                 {
                     "@id": ""
                 }
             ],
-            "name": "This is a sample notebook"
-        },
-        {
-            "@id": "#0000-0001-7956-4498",
-            "@type": "Person",
-            "name": "Sherratt, Tim"
+            "name": "This is my very first notebook"
         }
     ]
 }
